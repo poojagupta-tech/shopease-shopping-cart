@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="shop-box">
+          <i class="ri-shopping-bag-fill"></i>
+          <h2>Shop <span>Ease</span></h2>
+        </div>
+        <div class="content-box">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="search-cart-box">
+          <div class="search-box">
+            <i class="ri-search-line"></i>
+            <input type="text" class= "search-input" placeholder="Search products..." />
+          </div>
+          <div class="shopping-cart">
+            <i class="ri-shopping-cart-line"></i>
+            <span class="cart-badge">0</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="hero-section">
+      <div class="left-box">
+        <div class="left-product-box">
+          <h1>Our Products</h1>
+          <p>Best gadgets at the best prices.Add your favourites to cart!</p>
+        </div>
+        <div class="product-section">
+          <div class="laptop-box product-card">
+            <img src="https://imgs.search.brave.com/qMWhwEMg7NjpRokZyMMoO5rUujLUDc4Bhkx635ZrMAA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmRl/bGwuY29tL2Fzc2V0/bGluay9pbWcvZ2xv/YmFsL2xhcHRvcC1k/MTUyNjEtYXp1cml0/ZS1oZC1yZ2ItYmx1/ZS1nYWxsZXJ5LTMt/ZGwxMTltbGwtbGFy/Z2UucG5nP2ZtdD1w/bmctYWxwaGEmcHNj/YW49YXV0byZzY2w9/MSZoZWk9ODA0Jndp/ZD04MzcmcWx0PTEw/MCwwJnJlc01vZGU9/c2hhcnAyJnNpemU9/ODM3LDgwNA" alt="Laptop" />
+            <h3>Laptop</h3>
+            <h4>₹50,000</h4>
+            <p>High performance laptop for work, study and gaming.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+          </div>
+          <div class="headPhone product-card">
+            <img src="https://imgs.search.brave.com/9GGpwkfiv60Z0w-qVYl_we-TesMDzAyYcwSLBiAPDck/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L2ZyZWUtdmVjdG9y/L3dpcmVsZXNzLWhl/YWRwaG9uZXMtc2V0/XzEyODQtMjA0MjMu/anBnP2dhPUdBMS4x/LjY4MzIyNTAyNy4x/NzkwOTMyMjU4JnNl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MCZxPTgw" alt="Laptop" />
+            <h3>Headphones</h3>
+            <h4>₹2,000</h4>
+            <p>Premium sound quality with noise cancellation.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+          </div>
+          <div class="mouse-box product-card">
+            <img src="https://imgs.search.brave.com/VDWZINI5jEHRg8Rgwm1nLCV7aKy545iilsCNY-RK7yY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92c3By/b2QudmlqYXlzYWxl/cy5jb20vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0LzIvMC8yMDI2/NTlfcGRwXzFfLmpw/Zz9vcHRpbWl6ZT1t/ZWRpdW0mZml0PWJv/dW5kcyZoZWlnaHQ9/JndpZHRoPQ" alt="Laptop" />
+            <h3>Mouse</h3>
+            <h4>₹500</h4>
+            <p>Smooth and precise control for everday use.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+          </div>
+          <div class="keyboard-box product-card">
+            <img src="https://imgs.search.brave.com/MksPOaSQF2H-fk2r9jWBoWkXA1VC2rZPsyGub_GJCwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjF3aHJBNWk2WUwu/anBn" alt="Laptop" />
+            <h3>Keyboard</h3>
+            <h4>₹1,500</h4>
+            <p>Comfortable typing experience with durable keys.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+          </div>
+          <div class="watch-box product-card">
+            <img src="https://imgs.search.brave.com/q1bg-gV6g-2F8qsRiEKXVG6GeKDgzuCRPXJnAiYj878/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzF3Z3JDMXhjM0wu/anBn" alt="Laptop" />
+            <h3>Smartwatch</h3>
+            <h4>₹3,500</h4>
+            <p>Track your fitness,heart rate and more.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+          </div>
+          <div class="bag-box product-card">
+            <img src="https://imgs.search.brave.com/meF8Wlxd0_hTGttEafCy5zqz-nIQzwfMIMOkzpBet8w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFtQlB6UzRJZUwu/anBn" alt="Laptop" />
+            <h3>Backpack</h3>
+            <h4>₹1,200</h4>
+            <p>Stylish and spacious for everyday use.</p>
+            <button class="add-to-cart">
+              <i class="ri-shopping-cart-line"></i>
+              Add to Cart
+            </button>
+            
+          </div>
+        </div>
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="right-box">
+        <div class="card-heading">
+            <i class="ri-shopping-cart-line"></i>
+            <h2>Your Cart</h2>
+            <span class="cart-count">0</span>
+        </div>
+        <div class="empty-cart">
+            <i class="ri-shopping-cart-line"></i>
+            <h3>Your cart is empty</h3>
+            <p>Add some products to get started!</p>
+        </div>
+        <div class="footer">
+            <div class="Total-items">
+                <h3>Total items</h3>
+                <span class="total-items-number">0</span>
+            </div>
+            <div class="total-price">
+                <h3>Total Price</h3>
+                <span class="price-number">₹0</span>
+            </div>
+            <button class="btn-checkbox">
+              <i class="ri-shopping-cart-line"></i>
+              Proceed to Checkout
+            </button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
